@@ -1,0 +1,70 @@
+footer {
+    background-image: url("../media/footer.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 400px;
+
+    .linea {
+        background-color: $ambar;
+        width: 100%;
+        height: 5px;
+
+    }
+    h2{
+        color: $ambar;
+        padding-bottom: 20px;
+    }
+    
+
+    .informacion {
+        display: flex;
+        justify-content: space-around;
+        padding-top: 50px;
+
+        .redes {
+            width: 20%;
+            display: block;
+            padding-left: 10px;
+            border-left: 3px;
+            border-color: $ambar;
+            height: 300px;
+        }
+
+        .comercio {
+            width: 20%;
+            display: block;
+            padding-left: 10px;
+            border-left: 3px;
+            border-color: $ambar;
+            height: 300px;
+        }
+
+        .contactos {
+            width: 20%;
+            display: block;
+            padding-left: 10px;
+            border-left: 3px;
+            border-color: $ambar;
+            height: 300px;
+        }
+
+        .ruta{
+            width: 20%;
+            display: block;
+            padding-left: 10px;
+            border-left: 3px;
+            border-color: $ambar;
+            height: 300px;
+        }
+
+        
+    }
+    .derechos {
+        width: 100%;
+        text-align: center;
+        color: antiquewhite;
+        bottom: 0px;
+    }
+}

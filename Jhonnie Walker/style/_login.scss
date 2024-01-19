@@ -1,0 +1,56 @@
+.imagen_dato_log {
+    width: 65%;
+    height: 100%;
+    background-image: url("../media/imagen_login.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+form {
+    font-size: large;
+    background-color: rgba(255,255 ,255 , 0.5);
+    padding: 10px;
+    margin: 50px;
+    border-radius: 10px;
+
+    label {
+        padding-left: 10px;
+        width: 98%;
+        background-color: rgba(255,255 ,255 , 0.0);;
+    }
+
+    input {
+        padding-left: 10px;
+        width: 98%;
+        background-color: rgba(255,255 ,255 , 0.0);;
+        border: 0px;
+        border-bottom: 2px dotted black;
+
+
+    }
+
+    select {
+        padding-left: 10px;
+        width: 98%;
+        background-color: rgba(255,255 ,255 , 0.0);;
+        border: 0px;
+        border-bottom: 2px dotted black;
+    }
+
+    button{
+        padding-left: 10px;
+        width: 98%;
+        height: 40px;
+        border-radius: 50px;
+        border: 1px solid black;
+        transition: $cambio;
+        background-color: $madera;
+
+        &:hover{
+            transition: $cambio;
+            background-color: $ambar;
+        }
+    }
+}
